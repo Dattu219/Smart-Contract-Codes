@@ -5,6 +5,6 @@ df = pd.read_csv('https://raw.githubusercontent.com/Dattu219/ContractWard/main/O
 df = df.loc[: , 'address']
 print(df.dtypes)
 
-for i in range(5):
-    cmd = 'python oyente.py -ru https://raw.githubusercontent.com/Dattu219/ContractWard/main/sol_149363/' + df['address'][i]
-    sb.check_call(cmd)
+# for i in range(5):
+#     cmd = 'python oyente.py -ru https://raw.githubusercontent.com/Dattu219/ContractWard/main/sol_149363/' + df['address'][i]
+#     sb.check_call(cmd)
