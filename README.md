@@ -1,1 +1,1 @@
-# ContractWard
+# Smart Contract Codes
